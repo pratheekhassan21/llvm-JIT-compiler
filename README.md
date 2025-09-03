@@ -1,22 +1,22 @@
-# 🔥 LLVM Kaleidoscope JIT Compiler
+# LLVM Kaleidoscope JIT Compiler
 
 An implementation of the **Kaleidoscope language JIT compiler** from the [LLVM Tutorial](https://llvm.org/docs/tutorial/).  
 This project demonstrates how to build a toy programming language from scratch using LLVM’s APIs — including a **parser, AST, IR generation, optimizations, and a JIT execution engine**.
 
 ---
 
-## ✨ Features
-- 📝 **Toy language (Kaleidoscope)** implementation  
-- ⚡ **JIT compilation** using LLVM **ORC JIT**  
-- 🧩 **Lexer & Parser** for handling custom syntax  
-- 🌳 **Abstract Syntax Tree (AST)** for semantic representation  
-- 🏗️ **LLVM IR generation** using IRBuilder  
-- 📈 **Optimizations**: constant folding, function inlining, dead code elimination (via LLVM passes)  
-- 🖥️ Interactive **REPL (Read–Eval–Print Loop)**  
+## Features
+- **Toy language (Kaleidoscope)** implementation  
+- **JIT compilation** using LLVM **ORC JIT**  
+- **Lexer & Parser** for handling custom syntax  
+- **Abstract Syntax Tree (AST)** for semantic representation  
+- **LLVM IR generation** using IRBuilder  
+- **Optimizations**: constant folding, function inlining, dead code elimination (via LLVM passes)  
+- Interactive **REPL (Read–Eval–Print Loop)**  
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 llvm-JIT-compiler/
 │── src/
